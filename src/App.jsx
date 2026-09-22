@@ -72,9 +72,7 @@ export default function App() {
       <h1 className="text-2xl font-extrabold text-center text-blue-400 mb-1">
         Battery Usage Predictor
       </h1>
-      <p className="text-xs text-center text-slate-400 mb-6">
-        Executing <code className="bg-slate-700 px-1.5 py-0.5 rounded text-blue-300">main.py</code> client-side
-      </p>
+    
 
       {loading ? (
         <div className="text-center py-8">
